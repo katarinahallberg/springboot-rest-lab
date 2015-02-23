@@ -1,0 +1,12 @@
+*.class
+*.jar
+target/
+
+## IntelliJ
+*.ipr
+*.iws
+*.iml
+.idea/
+
+## Mac
+.DS_Store
