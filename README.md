@@ -34,6 +34,8 @@ Add a new bookmark for user jhoeller:
 
     curl -X POST -v -H "Content-Type: application/json" -d '{"uri":"the uri", "description":"the description"}' http://127.0.0.1:8080/jhoeller/bookmarks
 
+*NB! Windows users might need to escape double quotes in the json.*
+
 ### Security
 
 1. Login / get access token for user jhoeller:
