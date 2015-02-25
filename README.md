@@ -41,3 +41,9 @@ Get all bookmarks for user jhoeller:
         curl -v GET http://127.0.0.1:8080/bookmarks  -H "Authorization: Bearer [access_token from response in above POST request]"
 
     *(NB! The second example request at the top of the security step Application class in the tutorial is incorrect.)*
+
+## Learn more about Spring Boot
+http://projects.spring.io/spring-boot/
+
+http://www.infoq.com/articles/microframeworks1-spring-boot
+
