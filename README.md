@@ -30,6 +30,10 @@ Get all bookmarks for user jhoeller:
 
     curl -v GET http://127.0.0.1:8080/jhoeller/bookmarks
 
+Add a new bookmark for user jhoeller:
+
+    curl -X POST -v -H "Content-Type: application/json" -d '{"uri":"the uri", "description":"the description"}' http://127.0.0.1:8080/jhoeller/bookmarks
+
 ### Security
 
 1. Login / get access token for user jhoeller:
